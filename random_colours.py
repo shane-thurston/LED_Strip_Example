@@ -2,8 +2,8 @@ from microbit import *
 import neopixel
 from random import randint
 
-# Setup the Neopixel strip on pin0 with a length of 8 pixels
-neo = neopixel.NeoPixel(pin0, 8)
+# Setup the Neopixel strip on pin0 with a length of 7 pixels
+neo = neopixel.NeoPixel(pin0, 7)
 
 while True:
   #Iterate over each LED in the strip
