@@ -1,8 +1,8 @@
 from microbit import *
 import neopixel
  
-#Neopixel with 8 LEDs
-neo = neopixel.NeoPixel(pin0, 8)
+#Neopixel with 7 LEDs
+neo = neopixel.NeoPixel(pin0, 7)
  
 while True:
   neo[0] = (255, 0, 0)
